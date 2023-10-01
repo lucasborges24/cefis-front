@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.1",
     "@rocketseat/eslint-config": "^2.1.0",
     "axios": "^1.5.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.4",
     "js-cookie": "^3.0.5",
+    "lucide-react": "^0.279.0",
     "next": "latest",
     "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.46.2",
     "sweetalert2": "^11.7.31",
+    "tailwind-merge": "^1.14.0",
     "zod": "^3.22.2"
   },
   "devDependencies": {
