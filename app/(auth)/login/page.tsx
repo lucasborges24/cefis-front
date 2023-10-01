@@ -1,7 +1,6 @@
+import { AuthPageTitle } from "@/components/pages/login/auth-title";
 export default function Login() {
   return (
-    <main>
-      <h1>Login</h1>
-    </main>
+      <AuthPageTitle title="Seja Bem vindo(a) à CEFIS" />
   );
 }
