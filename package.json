@@ -12,6 +12,7 @@
     "@rocketseat/eslint-config": "^2.1.0",
     "next": "latest",
     "react": "latest",
+    "sweetalert2": "^11.7.31",
     "zod": "^3.22.2"
   },
   "devDependencies": {
