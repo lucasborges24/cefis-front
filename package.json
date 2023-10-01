@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
+    "axios": "^1.5.1",
+    "js-cookie": "^3.0.5",
     "next": "latest",
     "react": "latest",
     "sweetalert2": "^11.7.31",
