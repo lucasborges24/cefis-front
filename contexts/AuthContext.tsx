@@ -84,8 +84,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     try {
       setUser(null);
       await AuthService.logoutSession();
-    } catch (error) {
-    }
+    } catch (error) {}
   }
 
   return (
@@ -102,6 +101,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
   );
 }
 
-export function useAuth() {
+export function useAuth(): AuthContextData {
   return useContext(AuthContext);
 }
