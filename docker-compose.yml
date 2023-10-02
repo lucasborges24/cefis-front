@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  nextjs:
+    build: .
+    ports:
+      - "3000:3001"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NEXT_PUBLIC_API_URL=https://cefisapi-58rcxozg.b4a.run
+      - NEXT_PUBLIC_API_AMBIENTE=development
