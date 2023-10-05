@@ -17,6 +17,12 @@ O projeto consiste em uma aplicação web que consome uma [API](https://github.c
 
 É possível acessar a versão em produção do projeto pelo seguinte [link](https://cefis-front.vercel.app/).
 
+Para testes, é possível utilizar o seguinte login:
+
+email: andre@cefis.com
+
+senha: Andre_Cefis!
+
 ## 🛠️ Rodando o Projeto Localmente com Docker
 
 Este projeto é configurado para ser executado usando o Docker e o Docker Compose. Para executar o projeto localmente, siga os passos abaixo:
